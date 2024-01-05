@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for Negotiation Engine of ONDC network chain based on Government of India ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pro12365/Turing-s-Negotiator.git"
+  },
+  "author": "Priyanshu Routh,Subhrajit Dutta,Pinaki Pritam Singha,Niladri Nandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pro12365/Turing-s-Negotiator/issues"
+  },
+  "homepage": "https://github.com/pro12365/Turing-s-Negotiator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
