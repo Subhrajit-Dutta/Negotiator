@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { auth, provider } from "./Firebase";
 import { signInWithPopup } from "firebase/auth";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import google from "./assets/google-icon 1.png";
 
 const Login = () => {
@@ -25,7 +25,7 @@ const Login = () => {
         navigate("/home");
         setCheck(false);
       })
-      .catch((err) => navigate("/"));
+      .catch(() => navigate("/"));
   };
 
   useEffect(() => {
